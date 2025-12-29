@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dilmini Dasunika | Portfolio</title>
+
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Portfolio<span></span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <header id="home" class="hero">
+    <div class="container hero-container">
+      <div class="hero-content fade-in-up">
+        <span class="greeting">Hello, I'm</span>
+        <h1>Dilmini Dasunika Siriwardhana</h1>
+        <p class="subtitle">Computer Science Undergraduate</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image fade-in-up delay-200">
+        <div class="image-wrapper">
+          <img src="Profile ph.jpeg" alt="Dilmini Dasunika">
+        </div>
+      </div>
+
+      <!-- Abstract Decoration -->
+      <div class="hero-decoration fade-in-up delay-200">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2>About Me</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="about-content fade-in-up delay-200">
+        <div class="about-text">
+          <p class="lead">I am Computer Science undergraduate specializing in Artificial Intelligence.</p>
+          <div class="bio-grid">
+            <div class="bio-item">
+              <span class="bio-label">Education</span>
+              <p>Cp/HK/ Denike Secondary School, Rikillagaskada.</p>
+            </div>
+            <div class="bio-item">
+              <span class="bio-label">Course</span>
+              <p>Diploma in Computer Science with Artificial Intelligence</p>
+            </div>
+            <div class="bio-item">
+              <span class="bio-label">Email</span>
+              <p>dasunikasiriwardhana@gmail.com</p>
+            </div>
+            <div class="bio-item">
+              <span class="bio-label">Date of Birth</span>
+              <p>20th September 2001</p>
+            </div>
+
+            <div class="bio-item">
+              <span class="bio-label">Location</span>
+              <p>Sri Lanka</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2>My Skills</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="skill-category fade-in-up delay-200">
+          <h3>Languages</h3>
+          <div class="skill-items">
+            <div class="skill-card">
+              <div class="skill-info">
+                <span>Java</span>
+              </div>
+
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-info">
+                <span>C++</span>
+              </div>
+
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-info">
+                <span>JavaScript</span>
+
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 60%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-info">
+                <span>SQL / MySQL</span>
+              </div>
+
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill" style="width: 65%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2>Projects</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card fade-in-up delay-200">
+          <div class="project-content">
+            <h3>Product Availability Tracker</h3>
+            <p class="project-desc">
+              A Java application developed to classify products, generate reports, track prices, and manage purchase
+              methods for e-commerce warehouses.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">OOP</span>
+              <span class="tag">Swing GUI</span>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="project-card fade-in-up delay-400">
+          <div class="project-content">
+            <h3>Learning Web Platform</h3>
+            <p class="project-desc">
+              An interactive learning web application for Sri Lankan nursery students. Focuses on vocabulary building in
+              Sinhala and Tamil using rule-based AI.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML/CSS/JS</span>
+              <span class="tag">SWI-Prolog</span>
+              <span class="tag">SQLite</span>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="project-card fade-in-up delay-600">
+          <div class="project-content">
+            <h3>Medical Interpreter System</h3>
+            <p class="project-desc">
+              A system that analyzes uploaded medical prescriptions or reports to provide rule-based insights about
+              mentioned conditions and seriousness levels.
+            </p>
+            <div class="project-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML,CSS</span>
+              <span class="tag">JS</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section alt-bg">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2>Get In Touch</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="contact-wrapper fade-in-up delay-200">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p id="formMessage" class="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>2025 Dilmini Dasunika Siriwardhana. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
